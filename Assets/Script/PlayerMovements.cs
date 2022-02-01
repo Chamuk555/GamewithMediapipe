@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerMovements : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int speed = 7; // Config speed
+        public int speed = 7; // Config speed
         public int jumpForce = 350; //Jump
         public float moveX; // Control X Line
         public bool isGround; // On the Ground ? T or F
